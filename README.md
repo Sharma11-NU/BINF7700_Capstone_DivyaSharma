@@ -21,9 +21,9 @@ Omics, Genomics, Transcriptomics
 ### Learning Goals for This Course
 
 By the end of this course, I aim to:
-Strengthen my Python, Linux and R programming skills bioinformatics tasks
-Learn how to design clean, well-structured, and reusable code
-Gain confidence using Git and GitHub for version control and project sharing
-Understand how real-world datasets are processed, analyzed, and interpreted
-Improve my ability to document projects clearly using README files and comments
-Build a strong portfolio project suitable for academic and entry-level technical roles
+Strengthen my Python, Linux and R programming skills bioinformatics tasks.
+Learn how to design clean, well-structured, and reusable code.
+Gain confidence using Git and GitHub for version control and project sharing.
+Understand how real-world datasets are processed, analyzed, and interpreted.
+Improve my ability to document projects clearly using README files and comments.
+Build a strong portfolio project suitable for academic and entry-level technical roles.
