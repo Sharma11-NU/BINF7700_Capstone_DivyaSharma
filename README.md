@@ -11,6 +11,25 @@ Bioinformatics / Data Handling:
 Command-line basics (CLI, terminal usage)
 Writing modular Python scripts
 
+### Project Overview
+## Title: Predicting Melanoma Patient Survival Using Machine Learning
+Goal: Build a machine learning model that predicts patient survival duration (days of treatment) based on clinical and genomic staging features, with the aim of supporting oncology decision-making.
+Dataset: ~1,500 patient records combining clinical data with TNM staging information sourced from cBioPortal.
+Target Variable: Survival duration derived from the Date of Care Delivery (DCD)
+
+## Project workflow
+    Raw Clinical Data 
+        ↓
+    Data Merging (Excel)
+        ↓
+    EDA & Preprocessing (Python)
+        ↓
+    Feature Engineering
+        ↓
+    ML Model Training (Random Forest / XGBoost)
+        ↓
+    Evaluation & Results
+   
 ### Software & Tools:
 Git & GitHub (repositories, commits, push/pull)
 
@@ -27,3 +46,10 @@ Gain confidence using Git and GitHub for version control and project sharing.
 Understand how real-world datasets are processed, analyzed, and interpreted.
 Improve my ability to document projects clearly using README files and comments.
 Build a strong portfolio project suitable for academic and entry-level technical roles.
+
+## Repository structure
+    BINF7700_Capstone_DivyaSharma/
+    │
+    ├── EDA.py                  # Exploratory data analysis and preprocessing script
+    ├── .gitignore              # Excludes sensitive patient data files
+    └── README.md               # Project documentation
