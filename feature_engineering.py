@@ -1,5 +1,4 @@
 """
-MelanoTox-ML
 Predicting Immunotherapy-Associated Toxicity in Melanoma Patients
 HIPAA   : No PHI retained in any output file
 """
