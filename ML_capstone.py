@@ -20,7 +20,7 @@ X_test_scaled  = pd.read_csv("X_test_scaled.csv")
 y_train        = pd.read_csv("y_train.csv").squeeze()
 y_test         = pd.read_csv("y_test.csv").squeeze()
 
-print(f"✓ Data loaded | Train: {X_train.shape} | Test: {X_test.shape}")
+print(f" Data loaded, Train: {X_train.shape}, Test: {X_test.shape}")
 
 # TRAIN MODELS
 
@@ -49,11 +49,11 @@ rf.fit(X_train, y_train)
 rf_preds = rf.predict(X_test)
 rf_probs = rf.predict_proba(X_test)[:, 1]
 
-print("✓ All three models trained")
+print(" All three models trained")
 
 # CROSS VALIDATION 
 
-print("\n--- 5-Fold Cross Validation ---")
+print("\n 5-Fold Cross Validation ")
 
 cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
@@ -67,19 +67,19 @@ print(f"  RF  CV AUC: {rf_cv.mean():.4f} ± {rf_cv.std():.4f}")
 
 # METRICS TABLE
 
-print("\n--- Full Metrics: Logistic Regression ---")
+print("\n Full Metrics: Logistic Regression ")
 print(classification_report(y_test, lr_preds,
                              target_names=["No Toxicity", "Toxicity"]))
 print(f"AUC-ROC  : {roc_auc_score(y_test, lr_probs):.4f}")
 print(f"Accuracy : {(lr_preds == y_test).mean():.4f}")
 
-print("\n--- Full Metrics: XGBoost ---")
+print("\n Full Metrics: XGBoost ")
 print(classification_report(y_test, xgb_preds,
                              target_names=["No Toxicity", "Toxicity"]))
 print(f"AUC-ROC  : {roc_auc_score(y_test, xgb_probs):.4f}")
 print(f"Accuracy : {(xgb_preds == y_test).mean():.4f}")
 
-print("\n--- Full Metrics: Random Forest ---")
+print("\n Full Metrics: Random Forest ")
 print(classification_report(y_test, rf_preds,
                              target_names=["No Toxicity", "Toxicity"]))
 print(f"AUC-ROC  : {roc_auc_score(y_test, rf_probs):.4f}")
