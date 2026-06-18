@@ -5,16 +5,14 @@ This repository contains my course capstone project, where I apply programming a
 Programming Languages: Python, basic SQL
 Data Analysis: Pandas, NumPy, data cleaning, exploratory data analysis (EDA)
 Visualization: Matplotlib, basic Tableau
-Bioinformatics / Data Handling:
 
 ### Working with structured datasets (CSV, TSV)
 Command-line basics (CLI, terminal usage)
-Writing modular Python scripts
 
 ### Project Overview
 ## Title: Predicting Melanoma Patient Survival Using Machine Learning
 Goal: Build a machine learning model that predicts patient survival duration (days of treatment) based on clinical and genomic staging features, with the aim of supporting oncology decision-making.
-Dataset: ~1,500 patient records combining clinical data with TNM staging information sourced from cBioPortal.
+Dataset: ~1,000 patient records combining clinical data with TNM staging information sourced from cBioPortal.
 Target Variable: Survival duration derived from the Date of Care Delivery (DCD)
 
 ## Project workflow
@@ -34,18 +32,8 @@ Target Variable: Survival duration derived from the Date of Care Delivery (DCD)
 Git & GitHub (repositories, commits, push/pull)
 
 ### Core Concepts:
-
 Omics, Genomics, Transcriptomics
 
-### Learning Goals for This Course
-
-By the end of this course, I aim to:
-Strengthen my Python, Linux and R programming skills bioinformatics tasks.
-Learn how to design clean, well-structured, and reusable code.
-Gain confidence using Git and GitHub for version control and project sharing.
-Understand how real-world datasets are processed, analyzed, and interpreted.
-Improve my ability to document projects clearly using README files and comments.
-Build a strong portfolio project suitable for academic and entry-level technical roles.
 
 ## Repository structure
     BINF7700_Capstone_DivyaSharma/
