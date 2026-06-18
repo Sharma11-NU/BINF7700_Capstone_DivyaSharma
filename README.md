@@ -24,7 +24,7 @@ Target Variable: Survival duration derived from the Date of Care Delivery (DCD)
         ↓
     Feature Engineering
         ↓
-    ML Model Training (Random Forest / XGBoost)
+    ML Model Training 
         ↓
     Evaluation & Results
    
