@@ -39,5 +39,7 @@ Omics, Genomics, Transcriptomics
     BINF7700_Capstone_DivyaSharma/
     │
     ├── EDA.py                  # Exploratory data analysis and preprocessing script
+    ├── feature_engineering.py  # new features 
+    ├── ML_capstone.py          # Predicting Immunotherapy-Associated Toxicity in Melanoma Patients
     ├── .gitignore              # Excludes sensitive patient data files
     └── README.md               # Project documentation
