@@ -1,5 +1,11 @@
 melanoma_clean.csv
 skin_cancer.csv
+X_train.csv
+X_test.csv 
+X_train_scaled.csv
+X_test_scaled 
+ y_train.csv
+y_test.csv 
 .venv/
 __pycache__/
 *.pyc
